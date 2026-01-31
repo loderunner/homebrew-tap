@@ -8,7 +8,7 @@ cask "apiki" do
   name "apiki"
   desc "TUI environment variable manager"
   homepage "https://loderunner.github.io/apiki"
-  version "0.3.3"
+  version "0.4.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -19,22 +19,22 @@ cask "apiki" do
   on_macos do
     on_intel do
       url "https://github.com/loderunner/apiki/releases/download/v#{version}/apiki_#{version}_darwin_amd64.tar.gz"
-      sha256 "6a0bc3eb7f2664c5a933297a90382f86c224dd863595c533cfefd4c74e6641ae"
+      sha256 "fd93d381fb97df27e8b9d149de6f90a9eef79c82749f309c39fe3ae367b903b0"
     end
     on_arm do
       url "https://github.com/loderunner/apiki/releases/download/v#{version}/apiki_#{version}_darwin_arm64.tar.gz"
-      sha256 "d45c6ed700510d9b11d5ff6e6fd61ff664af09eef61b209ebf55f6917364afaa"
+      sha256 "06fce044f1ccb4f3b52c6d56e8b44c7bc3544dd6b50859c8a186e04cb3965146"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/loderunner/apiki/releases/download/v#{version}/apiki_#{version}_linux_amd64.tar.gz"
-      sha256 "a519411b7a6edeb514da01802615e7a4a15a8ad740a512fc6f16708900daa71b"
+      sha256 "e2116e0a3788cec6d5730c6c2c83911e266cccf0e1b7f23fbb5e60f2f770cfbe"
     end
     on_arm do
       url "https://github.com/loderunner/apiki/releases/download/v#{version}/apiki_#{version}_linux_arm64.tar.gz"
-      sha256 "a13f208b49af33ef579202d3e6127c4f3615baf95d49646c2cfce4f0ec0890ba"
+      sha256 "b211155cb4e1b2ce42b667bd4c1e311234b84160ba2ac67d1ed4bb8bd31fb446"
     end
   end
 
